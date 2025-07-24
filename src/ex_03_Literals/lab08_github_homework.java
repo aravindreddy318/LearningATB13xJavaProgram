@@ -2,15 +2,16 @@ package ex_03_Literals;
 
 public class lab08_github_homework {
     public static void main(String[] args) {
-        System.out.println("9 * 1 = 9");
-        System.out.println("9 * 2 = 18");
-        System.out.println("9 * 3 = 27");
-        System.out.println("9 * 4 = 36");
-        System.out.println("9 * 5 = 45");
-        System.out.println("9 * 6 = 54");
-        System.out.println("9 * 7 = 63");
-        System.out.println("9 * 8 = 72");
-        System.out.println("9 * 9 = 81");
-        System.out.println("9 * 10 = 90");
+        int num = 9;
+        System.out.printf("%d x %d = %d", num, 1, num).println();
+        System.out.printf("%d x %d = %d", num, 2, num * 2).println();
+        System.out.printf("%d x %d = %d", num, 3, num * 3).println();
+        System.out.printf("%d x %d = %d", num, 4, num * 4).println();
+        System.out.printf("%d x %d = %d", num, 5, num * 4).println();
+        System.out.printf("%d x %d = %d", num, 6, num * 4).println();
+        System.out.printf("%d x %d = %d", num, 7, num * 4).println();
+        System.out.printf("%d x %d = %d", num, 8, num * 4).println();
+        System.out.printf("%d x %d = %d", num, 9, num * 4).println();
+        System.out.printf("%d x %d = %d", num, 10, num * 10).println();
     }
 }
